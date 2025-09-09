@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{% block title %}Rock‑Paper‑Scissors{% endblock %}</title>
+<link rel="stylesheet" href="/static/css/styles.css" />
+{% csrf_token %}
+</head>
+<body>
+<main class="container">
+<h1 class="brand">🪨 📄 ✂️ Rock‑Paper‑Scissors</h1>
+{% block content %}{% endblock %}
+</main>
+</body>
+</html>
